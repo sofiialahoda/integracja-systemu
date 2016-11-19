@@ -1,0 +1,9 @@
+{
+  "name": "Politechnika Lubelska - Integracja Systemów",
+  "description": "Szablon na podstawie obrazu java8. Obejmuje serwera PostgreSQL. Używane do wdrażania Spring boot app.",
+  "repository": "https://github.com/rdzhadan/integracja-systemow",
+  "image": "heroku/java",
+  "addons": [
+    "heroku-postgresql"
+  ]
+}
