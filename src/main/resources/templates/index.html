@@ -14,44 +14,251 @@
   See the License for the specific language governing permissions and
   limitations under the License.
 -->
-<html>
+<html lang="ua">
 <head>
-    <title>Politechnika Lubelska - Integracja Systemów</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+    <meta charset="UTF-8">
+    <title></title>
 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/ico.png" type="image/x-icon">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script>
+        var ajaxUrl = 'ajax.php';
+    </script>
+
+    <!--[if lt IE 10]>
+    <link rel="stylesheet" href="https://rawgit.com/codefucker/finalReject/master/reject/reject.css" media="all" />
+    <script type="text/javascript" src="https://rawgit.com/codefucker/finalReject/master/reject/reject.min.js"></script>
+    <![endif]-->
 </head>
 <body>
-<div class="container">
-    <div class="page-header">
-        <h1>Politechnika Lubelska - Integracja Systemów</h1>
-        <form action="/movies" method="get">
-            <span>Filter:</span>
-            <select name="filter">
-                <option value="ALL">All</option>
-                <option value="HAS_AWARDS">Has Awards</option>
-                <option value="HAS_POSTER">Has Poster</option>
-                <option value="HAS_GENRE">Has Genre</option>
-                <option value="HAS_DIRECTOR">Has Director</option>
-                <option value="HAS_WRITER">Has Writer</option>
-                <option value="HAS_LANGUAGE">Has Language</option>
-                <option value="HAS_COUNTRY">Has Country</option>
-                <option value="HAS_YEAR">Has Year</option>
-                <option value="HAS_TITLE">Has Title</option>
-                <option value="HAS_ACTORS">Has Actors</option>
-            </select>
-            <br/>
-            <span>Value:</span><input value="null" name="value" type="text"/>
-            <br/>
-            <button type="submit">Submit</button>
-        </form>
-    </div>
-</div>
+<!-- MAIN -->
+<div class="main">
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <div class="head-vacancy">
+        <div class="container">
+            <div class="row">
+                <div class="head-text col-lg-12 col-sm-12 col-md-12 col-xs-12">
+                    <img src="images/vacabcy.png" alt="">
+                    <div class="after-text">
+                        <span> Вакансії (чоловіки, Польща) </span> <br/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="vacancy-browse">
+        <div class="container">
+            <div class="row">
+                <div class="wrap-browse col-lg-12 col-sm-12 col-md-12 col-xs-12">
+    
+                    <div class="col-lg-6 col-sm-12 col-md-6 col-xs-12">
+                        <div class="single-item ">
+                            <div class="item-header">Робочі на завод м’ясної продукції</div>                          
+                            <div class="button-zayavka">
+                                <a href="#call-popup" class="button-green fancybox-form"> Зробити заявку</a>
+                            </div>
+                        </div>
+                    </div>  
+    
+                </div>
+            </div>
+    
+        </div>
+    </div>
+    <div class="vacancy-browse">
+        <div class="container">
+            <div class="row">
+                <div class="wrap-browse col-lg-12 col-sm-12 col-md-12 col-xs-12">
+    
+                    <div class="col-lg-6 col-sm-12 col-md-6 col-xs-12">
+                        <div class="single-item ">
+                            <div class="item-header">Робочі на завод м’ясної продукції</div>                          
+                            <div class="button-zayavka">
+                                <a href="#call-popup" class="button-green fancybox-form"> Зробити заявку</a>
+                            </div>
+                        </div>
+                    </div>  
+    
+                </div>
+            </div>
+    
+        </div>
+    </div>
+    <div class="vacancy-browse">
+        <div class="container">
+            <div class="row">
+                <div class="wrap-browse col-lg-12 col-sm-12 col-md-12 col-xs-12">
+    
+                    <div class="col-lg-6 col-sm-12 col-md-6 col-xs-12">
+                        <div class="single-item ">
+                            <div class="item-header">Робочі на завод м’ясної продукції</div>                          
+                            <div class="button-zayavka">
+                                <a href="#call-popup" class="button-green fancybox-form"> Зробити заявку</a>
+                            </div>
+                        </div>
+                    </div>  
+    
+                </div>
+            </div>
+    
+        </div>
+    </div>
+    <div class="vacancy-browse">
+        <div class="container">
+            <div class="row">
+                <div class="wrap-browse col-lg-12 col-sm-12 col-md-12 col-xs-12">
+    
+                    <div class="col-lg-6 col-sm-12 col-md-6 col-xs-12">
+                        <div class="single-item ">
+                            <div class="item-header">Робочі на завод м’ясної продукції</div>                          
+                            <div class="button-zayavka">
+                                <a href="#call-popup" class="button-green fancybox-form"> Зробити заявку</a>
+                            </div>
+                        </div>
+                    </div>  
+    
+                </div>
+            </div>
+    
+        </div>
+    </div>
+    <div class="vacancy-browse">
+        <div class="container">
+            <div class="row">
+                <div class="wrap-browse col-lg-12 col-sm-12 col-md-12 col-xs-12">
+    
+                    <div class="col-lg-6 col-sm-12 col-md-6 col-xs-12">
+                        <div class="single-item ">
+                            <div class="item-header">Робочі на завод м’ясної продукції</div>                          
+                            <div class="button-zayavka">
+                                <a href="#call-popup" class="button-green fancybox-form"> Зробити заявку</a>
+                            </div>
+                        </div>
+                    </div>  
+    
+                </div>
+            </div>
+    
+        </div>
+    </div>
+    <div class="vacancy-browse">
+        <div class="container">
+            <div class="row">
+                <div class="wrap-browse col-lg-12 col-sm-12 col-md-12 col-xs-12">
+    
+                    <div class="col-lg-6 col-sm-12 col-md-6 col-xs-12">
+                        <div class="single-item ">
+                            <div class="item-header">Робочі на завод м’ясної продукції</div>                          
+                            <div class="button-zayavka">
+                                <a href="#call-popup" class="button-green fancybox-form"> Зробити заявку</a>
+                            </div>
+                        </div>
+                    </div>  
+    
+                </div>
+            </div>
+    
+        </div>
+    </div>
+    <div class="vacancy-browse">
+        <div class="container">
+            <div class="row">
+                <div class="wrap-browse col-lg-12 col-sm-12 col-md-12 col-xs-12">
+    
+                    <div class="col-lg-6 col-sm-12 col-md-6 col-xs-12">
+                        <div class="single-item ">
+                            <div class="item-header">Робочі на завод м’ясної продукції</div>                          
+                            <div class="button-zayavka">
+                                <a href="#call-popup" class="button-green fancybox-form"> Зробити заявку</a>
+                            </div>
+                        </div>
+                    </div>  
+    
+                </div>
+            </div>
+    
+        </div>
+    </div>
+    <div class="vacancy-browse">
+        <div class="container">
+            <div class="row">
+                <div class="wrap-browse col-lg-12 col-sm-12 col-md-12 col-xs-12">
+    
+                    <div class="col-lg-6 col-sm-12 col-md-6 col-xs-12">
+                        <div class="single-item ">
+                            <div class="item-header">Робочі на завод м’ясної продукції</div>                          
+                            <div class="button-zayavka">
+                                <a href="#call-popup" class="button-green fancybox-form"> Зробити заявку</a>
+                            </div>
+                        </div>
+                    </div>  
+    
+                </div>
+            </div>
+    
+        </div>
+    </div>
+    <div class="vacancy-browse">
+        <div class="container">
+            <div class="row">
+                <div class="wrap-browse col-lg-12 col-sm-12 col-md-12 col-xs-12">
+    
+                    <div class="col-lg-6 col-sm-12 col-md-6 col-xs-12">
+                        <div class="single-item ">
+                            <div class="item-header">Робочі на завод м’ясної продукції</div>                          
+                            <div class="button-zayavka">
+                                <a href="#call-popup" class="button-green fancybox-form"> Зробити заявку</a>
+                            </div>
+                        </div>
+                    </div>  
+    
+                </div>
+            </div>
+    
+        </div>
+    </div>
+    <div class="vacancy-browse">
+        <div class="container">
+            <div class="row">
+                <div class="wrap-browse col-lg-12 col-sm-12 col-md-12 col-xs-12">
+    
+                    <div class="col-lg-6 col-sm-12 col-md-6 col-xs-12">
+                        <div class="single-item ">
+                            <div class="item-header">Робочі на завод м’ясної продукції</div>                          
+                            <div class="button-zayavka">
+                                <a href="#call-popup" class="button-green fancybox-form"> Зробити заявку</a>
+                            </div>
+                        </div>
+                    </div>  
+    
+                </div>
+            </div>
+    
+        </div>
+    </div>
+
+</div>
+<!-- /MAIN -->
+
+
+<!-- FOOTER -->
+
+<!-- FOOTER -->
+
+<!-- SCRIPTS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/validate_script.js" ></script>
+<script type="text/javascript" src="js/main.js" ></script>
+<!-- /SCRIPTS -->
 </body>
 </html>
