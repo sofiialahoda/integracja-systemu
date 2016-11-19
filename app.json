@@ -1,7 +1,7 @@
 {
   "name": "Laboratorium 2",
   "description": "Szablon na podstawie obrazu java8. Obejmuje serwera PostgreSQL. Używane do wdrażania Spring boot app.",
-  "repository": "https://github.com/rdzhadan/integracja-systemow",
+  "repository": "https://github.com/sofiialahoda/integracja-systemu",
   "addons": [
     "heroku-postgresql"
   ]
